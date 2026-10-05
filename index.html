@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alex Katana — Evangelist, disciple maker and Bible teacher from Msambweni, Ramisi, Kenya.">
+  <meta name="author" content="Alex Katana">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Alex Katana | Evangelist & Disciple Maker">
+  <meta property="og:description" content="Saved and willing to go and make disciples who make disciples.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="alex-katana.jpg">
+  <title>Alex Katana | Evangelist & Disciple Maker</title>
+
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5f6b7a;
+      --gold: #c99a3d;
+      --cream: #fbf8f1;
+      --white: #ffffff;
+      --line: #e7e0d2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--cream);
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #172033 0%, #273653 100%);
+      color: white;
+      padding: 60px 20px;
+    }
+    .wrap { width: min(1080px, 100%); margin: auto; }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 60px;
+      align-items: center;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #e5c47d;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    h1 {
+      font-size: clamp(48px, 8vw, 82px);
+      line-height: .98;
+      margin: 18px 0;
+    }
+    .subtitle {
+      font-size: clamp(20px, 3vw, 28px);
+      color: #e8edf5;
+      margin: 0 0 28px;
+    }
+    .tagline {
+      border-left: 4px solid var(--gold);
+      padding: 10px 18px;
+      font-size: 18px;
+      font-style: italic;
+      max-width: 650px;
+    }
+    .photo {
+      width: 100%;
+      aspect-ratio: 4/5;
+      object-fit: cover;
+      border-radius: 24px;
+      border: 5px solid rgba(255,255,255,.18);
+      box-shadow: 0 25px 70px rgba(0,0,0,.3);
+    }
+    section { padding: 80px 20px; }
+    .section-title {
+      font-size: 36px;
+      margin: 0 0 16px;
+    }
+    .section-lead {
+      color: var(--muted);
+      max-width: 760px;
+      font-size: 18px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 35px;
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 8px 30px rgba(23,32,51,.06);
+    }
+    .card h3 { margin-top: 0; }
+    .card p { color: var(--muted); margin-bottom: 0; }
+    .training {
+      background: #fff;
+    }
+    .training-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 30px;
+      padding: 0;
+      list-style: none;
+    }
+    .training-list li {
+      padding: 18px 20px;
+      background: var(--cream);
+      border-radius: 12px;
+      border-left: 4px solid var(--gold);
+      font-weight: 600;
+    }
+    .vision {
+      text-align: center;
+      background: #172033;
+      color: white;
+    }
+    .vision blockquote {
+      font-size: clamp(25px, 4vw, 42px);
+      line-height: 1.3;
+      max-width: 900px;
+      margin: 30px auto;
+      font-style: italic;
+    }
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+      margin-top: 35px;
+    }
+    .contact-box {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 25px;
+    }
+    .button {
+      display: inline-block;
+      background: var(--gold);
+      color: #172033;
+      text-decoration: none;
+      padding: 13px 22px;
+      border-radius: 999px;
+      font-weight: 800;
+      margin-top: 10px;
+    }
+    footer {
+      background: #101724;
+      color: #b9c1cf;
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 14px;
+    }
+    @media (max-width: 800px) {
+      .hero-grid, .contact { grid-template-columns: 1fr; }
+      .hero { min-height: auto; }
+      .photo { max-width: 420px; margin: auto; display: block; }
+      .cards, .training-list { grid-template-columns: 1fr; }
+      section { padding: 60px 20px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Alex Katana",
+    "description": "Profile of Alex Katana, an Evangelist and disciple maker from Msambweni, Ramisi, Kenya.",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Alex Katana",
+      "jobTitle": ["Evangelist", "Disciple Maker"],
+      "image": "alex-katana.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Msambweni",
+        "addressCountry": "KE"
+      },
+      "sameAs": [
+        "https://www.facebook.com/alex.kabritish"
+      ]
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Evangelist • Disciple Maker • Bible Teacher</div>
+        <h1>Alex Katana</h1>
+        <p class="subtitle">Saved and willing to go and make disciples who make disciples.</p>
+        <p class="tagline">“My desire is to share the Gospel, make disciples, and help others grow in their walk with God.”</p>
+      </div>
+      <img class="photo" src="alex-katana.jpg" alt="Alex Katana">
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">About Alex</h2>
+        <p class="section-lead">
+          Alex Katana is an Evangelist and disciple maker from Msambweni, Ramisi, Kenya.
+          He is passionate about sharing the Gospel of Jesus Christ and helping people become
+          disciples who make other disciples.
+        </p>
+        <p class="section-lead">
+          Alex enjoys Bible study, reading storybooks, meeting new people, and building meaningful friendships.
+          He is committed to serving God and being available to go wherever God sends him.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Evangelism</h3>
+            <p>Passionate about sharing the Gospel of Jesus Christ and reaching people with the message of salvation.</p>
+          </div>
+          <div class="card">
+            <h3>Disciple Making</h3>
+            <p>Focused on making disciples who can grow spiritually and make disciples of others.</p>
+          </div>
+          <div class="card">
+            <h3>Bible Study</h3>
+            <p>Loves studying Scripture, learning, and helping others discover practical biblical truth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="training">
+      <div class="wrap">
+        <h2 class="section-title">Ministry & Training</h2>
+        <p class="section-lead">Alex has pursued several areas of Christian ministry and personal development.</p>
+        <ul class="training-list">
+          <li>Bible College Studies</li>
+          <li>Discipleship Training Program</li>
+          <li>Builder School</li>
+          <li>Counseling School</li>
+          <li>Mind Renewal Training</li>
+          <li>Other Christian Ministry & Leadership Training</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="vision">
+      <div class="wrap">
+        <div class="eyebrow">Ministry Vision</div>
+        <blockquote>“Saved and willing to go and make disciples who make disciples.”</blockquote>
+        <p>Msambweni, Ramisi, Kenya</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">Connect with Alex</h2>
+        <div class="contact">
+          <div class="contact-box">
+            <h3>Facebook</h3>
+            <p>Follow Alex Kabritish on Facebook.</p>
+            <a class="button" href="https://www.facebook.com/alex.kabritish" target="_blank" rel="noopener">Facebook Profile</a>
+          </div>
+          <div class="contact-box">
+            <h3>Location</h3>
+            <p>Msambweni, Ramisi, Kenya</p>
+            <p>Evangelism • Disciple Making • Bible Study</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Alex Katana. All rights reserved.
+  </footer>
+</body>
+</html>
